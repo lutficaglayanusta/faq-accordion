@@ -3,7 +3,6 @@ const description = document.querySelectorAll(".description");
 
 container.addEventListener("click", (e) => {
   if (e.target.nodeName === "IMG") {
-    console.log(e.target.classList);
     if (e.target.classList.contains("minus-image")) {
       e.target.style.display = "none";
       e.target.nextElementSibling.style.display = "block";
